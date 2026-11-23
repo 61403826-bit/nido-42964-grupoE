@@ -1,0 +1,59 @@
+Nido - comunidad nido-huallata (10 cuentas). Escribe ayuda.
+nido@nido-huallata:~$ > arbol
+Preorden: @koala @beat @cactus @chasqui @delta @misti @meme @turbo @pixel @zenit
+Nodos: 10 | altura: 5 | hojas: 4
+nido@nido-huallata:~$ > usuarios
+Usuarios (enorden): @beat @cactus @chasqui @delta @koala @meme @misti @pixel @turbo @zenit
+nido@nido-huallata:~$ > perfil @pixel
+@pixel | id 8 | seguidores 3 | siguiendo 2
+nido@nido-huallata:~$ > seguidores @pixel
+Seguidores de @pixel (3): @chasqui @delta @turbo
+nido@nido-huallata:~$ > siguiendo @pixel
+@pixel sigue a (2): @koala @turbo
+nido@nido-huallata:~$ > mutuos @pixel
+Mutuos de @pixel (1): @turbo
+nido@nido-huallata:~$ > popular
+Popular: @turbo | seguidores: 5
+nido@nido-huallata:~$ > alcance @zenit
+Alcance de @zenit (6): @chasqui @turbo @cactus @misti @pixel @delta
+nido@nido-huallata:~$ > llega @zenit @pixel
+SI hay camino de @zenit a @pixel
+nido@nido-huallata:~$ > llega @delta @koala
+NO hay camino de @delta a @koala
+nido@nido-huallata:~$ > registrar @mango
+Registrado: @mango (id 10)
+nido@nido-huallata:~$ > registrar @mango
+E: Ya existe @mango
+nido@nido-huallata:~$ > registrar mango
+E: Usuario invalido (usa @minusculas/numeros, 2 a 16 caracteres)
+nido@nido-huallata:~$ > seguir @mango @koala
+@mango ahora sigue a @koala
+nido@nido-huallata:~$ > seguir @misti @mango
+@misti ahora sigue a @mango
+nido@nido-huallata:~$ > seguir @misti @mango
+E: @misti ya sigue a @mango
+nido@nido-huallata:~$ > dejar @misti @turbo
+@misti dejo de seguir a @turbo
+nido@nido-huallata:~$ > alcance @zenit
+Alcance de @zenit (5): @chasqui @turbo @cactus @pixel @delta
+nido@nido-huallata:~$ > seguidores @delta
+Seguidores de @delta (2): @cactus @zenit
+nido@nido-huallata:~$ > popular
+Popular: @turbo | seguidores: 4
+nido@nido-huallata:~$ > arbol
+Preorden: @koala @beat @cactus @chasqui @delta @misti @meme @mango @turbo @pixel @zenit
+Nodos: 11 | altura: 5 | hojas: 4
+nido@nido-huallata:~$ > reporte
+Cuentas: 11 | seguimientos: 17 | pares mutuos: 2
+Arbol: altura 5 | hojas 4
+nido@nido-huallata:~$ > guardar
+Guardado: 11 cuentas y 17 seguimientos en nido.txt
+nido@nido-huallata:~$ > cargar
+Cargado: 11 cuentas y 17 seguimientos | altura 5
+nido@nido-huallata:~$ > usuarios
+Usuarios (enorden): @beat @cactus @chasqui @delta @koala @mango @meme @misti @pixel @turbo @zenit
+nido@nido-huallata:~$ > reporte
+Cuentas: 11 | seguimientos: 17 | pares mutuos: 2
+Arbol: altura 5 | hojas 4
+nido@nido-huallata:~$ > salir
+Nodos liberados: 11. Hasta pronto.
