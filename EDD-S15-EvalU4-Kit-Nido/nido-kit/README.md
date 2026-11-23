@@ -38,5 +38,5 @@ Si la marca sale roja, abran la pestana **Actions** y vean que linea falta.
 | Etiqueta | Entrega | Contenido |
 |---|---|---|
 | v0.1 | E1 | Equipo, repositorio, tablero y acuerdos |
-| v0.5 | E2 | Diseno, traza a mano y los requisitos de la etapa 2 |
+| v0.5 | E2 | Diseño, traza a mano y los requisitos de la etapa 2 |
 | v1.0 | E3 | R1 a R7, informe, pruebas, presentacion |
