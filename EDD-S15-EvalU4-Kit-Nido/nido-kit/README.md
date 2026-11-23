@@ -10,7 +10,7 @@ Estructura de Datos · Evaluación C2 · Unidad 4 · 2026-20 · NRC `42964` · G
 | :--- | :--- | :--- | :--- |
 | Dayana Quispe Sucasaca | `@61578130-cloud` | Líder (scrum) / Control de calidad y documentación | R1, R2, R3, R5, R6, R7, pruebas |
 | Andrea Celeste Limache Tinta | `@61120408-star` | Dev · árbol y grafo básico | R1, R2, R3 |
-| Shany Anjhara Becerra Yari | `@61403826` | Dev · comunidad | R4 |
+| Shany Anjhara Becerra Yari | `@61403826-bit` | Dev · comunidad | R4 |
 | Marcos Abel Palomino Quispe | `@MarcosPalomino2` | Dev · alcance y archivo | R5, R6, R7a |
 
 Tablero del equipo: `GitHub Projects (nido-42964-grupoE)` · Presentación: `GRUPOE_Nido.pdf`
