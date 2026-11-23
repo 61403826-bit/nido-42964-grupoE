@@ -272,7 +272,16 @@ int main() {
             }
         }
         else if (orden == "reporte") {
-            // TODO R7b
+           int seg = 0, mut = 0;
+        for (int a = 0; a < nUsuarios; a++) {
+            for (int b = 0; b < nUsuarios; b++) {
+                if (sigue[a][b] == 1) seg++;
+                if (a < b && sigue[a][b] == 1 && sigue[b][a] == 1) mut++;
+            }
+        }
+        cout << "Cuentas: " << nUsuarios << " | seguimientos: " << seg << " | pares mutuos: " << mut << endl;
+        cout << "Arbol: altura " << altura(raiz) << " | hojas " << hojas(raiz) << endl;
+            
         }
         else if (orden == "ayuda") ayuda();
         else if (orden == "salir") break;
