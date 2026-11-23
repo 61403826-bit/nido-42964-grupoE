@@ -1,24 +1,19 @@
-# Nido · comunidad `<nido-nombre-de-su-ave>`
+# Nido · comunidad `nido-grupoE`
 
-![Nido CI](../../actions/workflows/nido.yml/badge.svg)
+Red social de consola hecha en C++ con un **árbol binario de búsqueda** (las cuentas, ordenadas por @usuario), un **grafo dirigido** en matriz de adyacencia (quién sigue a quién), **recursividad** (recorridos del árbol y DFS para el alcance de un post) y persistencia en `nido.txt`.
 
-Red social de consola hecha en C++ con un **arbol binario de busqueda** (las cuentas, ordenadas
-por @usuario), un **grafo dirigido** en matriz de adyacencia (quien sigue a quien), **recursion**
-(recorridos del arbol y DFS para el alcance de un post) y persistencia en `nido.txt`.
-
-Estructura de Datos · Evaluacion C2 · Unidad 4 · 2026-20 · NRC `<NRC>` · Grupo `<letra>`
+Estructura de Datos · Evaluación C2 · Unidad 4 · 2026-20 · NRC `42964` · Grupo `E`
 
 ## Equipo
 
 | Integrante | Usuario de GitHub | Rol | Requisitos |
-|---|---|---|---|
-|  |  | Lider (scrum) |  |
-|  |  | Dev · arbol | R1, R2 |
-|  |  | Dev · grafo | R3, R4 |
-|  |  | Dev · alcance y archivo | R5, R6 |
-|  |  | QA y documentacion | R7, pruebas |
+| :--- | :--- | :--- | :--- |
+| Dayana Quispe Sucasaca | `@61578130-cloud` | Líder (scrum) / Control de calidad y documentación | R1, R2, R3, R5, R6, R7, pruebas |
+| Andrea Celeste Limache Tinta | `@61120408-star` | Dev · árbol y grafo básico | R1, R2, R3 |
+| Shany Anjhara Becerra Yari | `@61403826` | Dev · comunidad | R4 |
+| Marcos Abel Palomino Quispe | `@MarcosPalomino2` | Dev · alcance y archivo | R5, R6, R7a |
 
-Tablero del equipo: `<enlace a GitHub Projects>` · Presentacion: `<enlace>`
+Tablero del equipo: `GitHub Projects (nido-42964-grupoE)` · Presentación: `GRUPOE_Nido.pdf`
 
 ## Como compilar y ejecutar
 
