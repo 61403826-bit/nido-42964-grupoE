@@ -121,13 +121,22 @@ int contarSeguidores(int id) {
 }
 
 void difundir(int v, bool visto[], bool imprimir) {
-    // TODO R5a
+    visto[v] = true;
+    if (imprimir) cout << " " << porId[v]->usuario;
+    for (int x = 0; x < nUsuarios; x++) {
+        if (sigue[x][v] == 1 && !visto[x]) {
+            difundir(x, visto, imprimir);
+        }
+}
 }
 
 /* ---------- Archivos y memoria ---------- */
 
 void guardarPreorden(NodoUsuario *r, ofstream &f) {
-    // TODO R6a
+    if (r == nullptr) return;
+    f << r->usuario << "\n";
+    guardarPreorden(r->izq, f);
+    guardarPreorden(r->der, f);
 }
 
 int liberar(NodoUsuario *r) {
