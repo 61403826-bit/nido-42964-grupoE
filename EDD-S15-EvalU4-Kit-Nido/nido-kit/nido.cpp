@@ -344,7 +344,7 @@ int main() {
         cout << endl;
             }
         }
-        else if (orden == "popular") {
+     } else if (orden == "popular") {
             // TODO R4b
               if (nUsuarios == 0) {
            cout << "(sin cuentas)" << endl;
@@ -360,7 +360,7 @@ int main() {
         }
            cout << "Popular: " << porId[mejorId]->usuario << " | seguidores: " << maxSeg << endl;
         }
-        else if (orden == "alcance") {
+        } else if (orden == "alcance") {
             NodoUsuario *u = buscar(raiz, a1);
         if (u == nullptr) {
             cout << "E: No existe " << a1 << endl;
