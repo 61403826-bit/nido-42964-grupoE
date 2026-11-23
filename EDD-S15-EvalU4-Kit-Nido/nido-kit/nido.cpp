@@ -6,9 +6,13 @@
    Docente    : Carlos del Carpio
    Semestre   : 2026-20
    Compilador : Dev-C++ (MinGW / GCC, C++11 o superior)
-   NRC        :
-   Grupo      :
+   NRC        :42964
+   Grupo      :E
    Integrantes:
+   Shany Anjhara Becerra Yari
+   Dayana Quispe Sucasaca
+   Marcos Abel Palomino Quispe 
+   Andrea Celeste Limache Tinta
    ============================================================= */
 
 #include <iostream>
@@ -131,8 +135,6 @@ int liberar(NodoUsuario *r) {
     int cant = 1 + liberar(r->izq) + liberar(r->der);
     delete r;
     return cant;
-}
-    return 0;
 }
 
 /* ---------- Ordenes ---------- */
