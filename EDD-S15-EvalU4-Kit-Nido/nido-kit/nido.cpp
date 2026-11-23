@@ -6,9 +6,12 @@
    Docente    : Carlos del Carpio
    Semestre   : 2026-20
    Compilador : Dev-C++ (MinGW / GCC, C++11 o superior)
-   NRC        :
-   Grupo      :
-   Integrantes:
+   NRC        : 42964
+   Grupo      : E
+   Integrantes: Quispe Sucasaca Dayana
+                Becerra Yari Shany Anjhara
+                Palomino Quispe Marcos Abel
+                Limache Tinta Andrea Celeste
    ============================================================= */
 
 #include <iostream>
@@ -243,9 +246,46 @@ int main() {
         }
         else if (orden == "mutuos") {
             // TODO R4a
+           if (a1.empty()) {
+           cout << "Uso: mutuos @usuario" << endl;
+     } else {
+    NodoUsuario* u = buscar(raiz, a1);
+    if (u == nullptr) {
+        cout << "E: No existe " << a1 << endl;
+    } else {
+        int lista[MAX];
+        int k = 0;
+        for (int x = 0; x < nUsuarios; x++) {
+            if (sigue[u->id][x] == 1 && sigue[x][u->id] == 1) {
+                lista[k++] = x;
+            }
+        }
+        cout << "Mutuos de " << u->usuario << " (" << k << "):";
+        if (k == 0) {
+            cout << " (ninguno)";
+        } else {
+            for (int i = 0; i < k; i++) {
+                cout << " " << porId[lista[i]]->usuario;
+            }
+        }
+        cout << endl;
+            }
         }
         else if (orden == "popular") {
             // TODO R4b
+              if (nUsuarios == 0) {
+           cout << "(sin cuentas)" << endl;
+      } else {
+       int mejorId = 0;
+       int maxSeg = contarSeguidores(0);
+       for (int i = 1; i < nUsuarios; i++) {
+           int seg = contarSeguidores(i);
+           if (seg > maxSeg) { 
+               maxSeg = seg;
+               mejorId = i;
+            }
+        }
+           cout << "Popular: " << porId[mejorId]->usuario << " | seguidores: " << maxSeg << endl;
         }
         else if (orden == "alcance") {
             // TODO R5b
