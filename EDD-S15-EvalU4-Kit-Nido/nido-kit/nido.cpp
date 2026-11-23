@@ -127,7 +127,11 @@ void guardarPreorden(NodoUsuario *r, ofstream &f) {
 }
 
 int liberar(NodoUsuario *r) {
-    // TODO R7a
+    if (r == nullptr) return 0;
+    int cant = 1 + liberar(r->izq) + liberar(r->der);
+    delete r;
+    return cant;
+}
     return 0;
 }
 
